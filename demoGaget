@@ -5,7 +5,637 @@
 </ModulePrefs>
 <Content type="html">
 <![CDATA[
+<!DOCTYPE html>
+<html>
 
+<head data-gwd-animation-mode="proMode">
+  <link href="gwdimage_style.css" data-version="6" data-exports-type="gwd-image" rel="stylesheet">
+  <link href="gwdyoutube_style.css" data-version="9" data-exports-type="gwd-youtube" rel="stylesheet">
+  <link href="gwddoubleclick_style.css" data-version="9" data-exports-type="gwd-doubleclick" rel="stylesheet">
+  <link href="gwdpage_style.css" data-version="8" data-exports-type="gwd-page" rel="stylesheet">
+  <link href="gwdtaparea_style.css" data-version="3" data-exports-type="gwd-taparea" rel="stylesheet">
+  <link href="gwdpagedeck_style.css" data-version="8" data-exports-type="gwd-pagedeck" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <script data-source="gwd_webcomponents_min.js" data-version="4" data-exports-type="gwd_webcomponents" type="text/javascript" src="gwd_webcomponents_min.js"></script>
+  <script data-source="googbase_min.js" data-version="3" data-exports-type="googbase" type="text/javascript" src="googbase_min.js"></script>
+  <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-doubleclick" type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <meta name="generator" content="Google Web Designer 1.4.2.0915">
+  <meta data-template-name="gwd-Expanding_Multi_Video_160x600_300x600_v1_2">
+  <meta name="template" content="Expandable 2.0.16">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css" id="gwd-lightbox-style">
+    .gwd-lightbox {
+      overflow: hidden;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      position: absolute;
+      background-color: transparent;
+    }
+    .gwd-page-wrapper {
+      position: absolute;
+      -webkit-transform: translateZ(0px);
+      background-color: rgb(255, 255, 255);
+    }
+    .banner {
+      width: 300px;
+      height: 250px;
+    }
+    .expanded {
+      width: 970px;
+      height: 250px;
+    }
+    #expand-button {
+      position: absolute;
+      width: 160px;
+      height: 600px;
+      left: 0px;
+      top: 0px;
+    }
+    .gwd-img-2spf {
+      -webkit-transform-origin: 72.7941176471px 16.5px 0px;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      height: 32px;
+      width: 140px;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+    .gwd-div-r8hw {
+      position: absolute;
+      height: 53px;
+      text-align: left;
+      width: 300px;
+      font-family: Roboto;
+      color: rgb(204, 204, 204);
+      left: 0px;
+      top: 100px;
+      font-size: 24px;
+    }
+    .gwd-img-197g {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      width: 119px;
+      height: 35.3915000442px;
+      -webkit-transform-origin: 59.5px 17.6604053343px 0px;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      top: 0px;
+      left: 0px;
+    }
+    .gwd-div-qh3o {
+      position: absolute;
+      text-align: center;
+      width: 100px;
+      height: 18px;
+      -webkit-transform: translate3d(0px, 0px, 0px);
+      -webkit-transform-style: preserve-3d;
+      left: 0px;
+      top: 6px;
+      font-family: Roboto;
+      color: rgb(255, 255, 255);
+    }
+  </style>
+  <script data-source="gwdpage_min.js" data-version="8" data-exports-type="gwd-page" type="text/javascript" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="8" data-exports-type="gwd-pagedeck" type="text/javascript" src="gwdpagedeck_min.js"></script>
+  <script data-source="gwdtaparea_min.js" data-version="3" data-exports-type="gwd-taparea" type="text/javascript" src="gwdtaparea_min.js"></script>
+  <script data-source="gwddoubleclick_min.js" data-version="9" data-exports-type="gwd-doubleclick" type="text/javascript" src="gwddoubleclick_min.js"></script>
+  <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+  <script data-source="gwdimage_min.js" data-version="6" data-exports-type="gwd-image" type="text/javascript" src="gwdimage_min.js"></script>
+  <style type="text/css" id="" title="Temp" media="screen">
+    .gwd-div-gxh1 {
+      width: 160px;
+      height: 600px;
+      background-image: none;
+      background-color: rgb(70, 70, 70);
+    }
+    .gwd-div-gpfs {
+      height: 55px;
+      opacity: 0;
+      left: -160px;
+      top: 272.5px;
+      width: 140px;
+    }
+    .gwd-div-4aqp {
+      height: 600px;
+      width: 300px;
+    }
+    .gwd-div-f18s {
+      height: 600px;
+      width: 300px;
+      background-image: none;
+      background-color: rgb(70, 70, 70);
+    }
+    .gwd-span-340l {
+      background-color: transparent;
+    }
+    .gwd-div-creo {
+      text-align: left;
+      font-size: 19px;
+      position: absolute;
+      font-family: Roboto;
+      color: rgb(204, 204, 204);
+      left: 20px;
+      top: 67px;
+    }
+    .gwd-span-akg6 {
+      background-color: transparent;
+    }
+    .gwd-taparea-6jyg {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      width: 119px;
+      height: 35.3534330986px;
+      -webkit-transform-origin: 59.5px 17.6640625px 0px;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      left: 19.5px;
+      top: 28px;
+    }
+    .gwd-span-hohw {
+      font-size: 28px;
+    }
+    .gwd-img-t00h {
+      position: absolute;
+      height: 111px;
+      width: 197px;
+      left: 0px;
+      top: 0px;
+    }
+    .gwd-img-xaiu {
+      width: 197px;
+    }
+    .gwd-img-7m3c {
+      height: 79px;
+      width: 140px;
+    }
+    .gwd-taparea-o5ho {
+      position: absolute;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      height: 79px;
+      width: 140px;
+      left: 80.21px;
+      top: 270.14px;
+    }
+    .gwd-taparea-9rp1 {
+      position: absolute;
+      height: 79px;
+      width: 140px;
+      left: 80px;
+      top: 359.5px;
+    }
+    .gwd-taparea-k0zt {
+      position: absolute;
+      height: 79px;
+      width: 140px;
+      left: 80px;
+      top: 448.5px;
+    }
+    .gwd-div-yfvf {
+      width: 160px;
+      height: 600px;
+    }
+    .gwd-span-7ko7 {
+      font-size: 14px;
+      font-family: Roboto;
+    }
+    .gwd-img-87tz {
+      display: block;
+      height: 25px;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: 25px;
+    }
+    .gwd-taparea-ru7j {
+      display: block;
+      height: 25px;
+      position: absolute;
+      width: 25px;
+      z-index: 0;
+      -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+      -webkit-transform-origin: 12.5px 12.5px 0px;
+      left: 19.4999999999999px;
+      top: 552.5px;
+    }
+    .gwd-img-8bqg {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      left: 0px;
+      top: 0px;
+    }
+    .gwd-taparea-rtlx {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      -webkit-transform-origin: 12.5px 12.5px 0px;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      top: 553px;
+      left: 58px;
+    }
+    .gwd-taparea-p5gx {
+      position: absolute;
+      -webkit-transform-origin: 70px 21.5px 0px;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      width: 100px;
+      height: 30px;
+      left: 180px;
+      top: 550px;
+      background-color: rgb(153, 153, 153);
+    }
+    .gwd-taparea-v8y4 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 160px;
+      height: 600px;
+    }
+    .gwd-span-4w88 {
+      font-size: xx-large;
+      font-family: Roboto;
+    }
+    .gwd-div-6h7g {
+      text-align: center;
+      position: absolute;
+      width: 60px;
+      height: 20px;
+      top: 7px;
+      left: 30px;
+    }
+    .gwd-span-nrlr {
+      color: rgb(255, 255, 255);
+      font-family: Roboto;
+    }
+    .gwd-img-lliv {
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      left: 0px;
+      top: 0px;
+      height: 79px;
+      width: 140px;
+    }
+    .gwd-img-nl3o {
+      height: 79px;
+      width: 140px;
+    }
+    #banner-page.gwd-play-animation .gwd-gen-icztgwdanimation {
+      -webkit-animation: gwd-gen-icztgwdanimation_gwd-keyframes 0.5s linear 0.5s 1 normal forwards;
+    }
+    @-webkit-keyframes gwd-gen-o3sygwdanimation_gwd-keyframes {
+      0% {
+        left: 10px;
+        top: -35px;
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in-out;
+      }
+      100% {
+        left: 10px;
+        top: 15px;
+        opacity: 1;
+        -webkit-animation-timing-function: ease-in-out;
+      }
+    }
+    #banner-page.gwd-play-animation .gwd-gen-o3sygwdanimation {
+      -webkit-animation: gwd-gen-o3sygwdanimation_gwd-keyframes 0.5s linear 0s 1 normal forwards;
+    }
+    .gwd-taparea-8zkq {
+      position: absolute;
+      height: 25px;
+      width: 25px;
+      left: 275px;
+      top: 0px;
+    }
+    .gwd-img-ash5 {
+      position: absolute;
+    }
+    .gwd-img-s5wz {
+      top: 4.5px;
+    }
+    .gwd-img-odim {
+      width: 20px;
+      height: 20px;
+      left: -0.5px;
+    }
+    .gwd-taparea-bv6m {
+      position: absolute;
+      width: 140px;
+      height: 32px;
+      left: 10px;
+      top: -35px;
+      opacity: 0;
+    }
+    .gwd-taparea-nrro {
+      position: absolute;
+      width: 120px;
+      height: 34px;
+      opacity: 0;
+      -webkit-transform-origin: 50% 50%;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      left: 20px;
+      top: 609px;
+      background-color: rgb(153, 153, 153);
+    }
+    #banner-page.gwd-play-animation .gwd-gen-iqlpgwdanimation {
+      -webkit-animation: gwd-gen-iqlpgwdanimation_gwd-keyframes 0.5s linear 1s 1 normal forwards;
+    }
+    @-webkit-keyframes gwd-gen-iqlpgwdanimation_gwd-keyframes {
+      0% {
+        left: 20px;
+        top: 609px;
+        opacity: 0;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        -webkit-animation-timing-function: ease-in-out;
+        background-color: rgb(153, 153, 153);
+      }
+      100% {
+        left: 20px;
+        top: 549px;
+        opacity: 1;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        -webkit-animation-timing-function: ease-in-out;
+        background-color: rgb(153, 153, 153);
+      }
+    }
+    @-webkit-keyframes gwd-gen-icztgwdanimation_gwd-keyframes {
+      0% {
+        left: -160px;
+        top: 272.5px;
+        opacity: 0;
+        width: 140px;
+        -webkit-animation-timing-function: ease-in-out;
+      }
+      100% {
+        left: 18px;
+        top: 272.5px;
+        opacity: 1;
+        width: 140px;
+        -webkit-animation-timing-function: ease-in-out;
+      }
+    }
+    .gwd-youtube-s0e8 {
+      display: block;
+      height: 147px;
+      position: absolute;
+      width: 260px;
+      z-index: 0;
+      align-self: stretch;
+      transform: matrix(1, 0, 0, 1, 0, 0);
+      -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+      transform-origin: 129px 77px 0px;
+      -webkit-transform-origin: 129px 77px 0px;
+      transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+      left: 20px;
+      top: 109px;
+    }
+  </style>
+  <script data-source="gwdyoutube_min.js" data-version="9" data-exports-type="gwd-youtube" type="text/javascript" src="gwdyoutube_min.js"></script>
+</head>
+
+<body class="document-body">
+  <gwd-doubleclick id="gwd-ad" polite-load="">
+    <gwd-metric-configuration>
+      <gwd-metric-event source="exp-yt-video" event="playpressed" metric="exp-yt-video: YouTube play"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="paused" metric="exp-yt-video: YouTube pause"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="ended" metric="exp-yt-video: YouTube end"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="replayed" metric="exp-yt-video: YouTube replayed"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="viewed25percent" metric="exp-yt-video: YouTube first quartile"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="viewed50percent" metric="exp-yt-video: YouTube midpoint"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="viewed75percent" metric="exp-yt-video: YouTube third quartile"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="viewed100percent" metric="exp-yt-video: YouTube complete"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="previewed0percent" metric="exp-yt-video: YouTube preview started"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="previewed25percent" metric="exp-yt-video: YouTube preview first quartile"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="previewed50percent" metric="exp-yt-video: YouTube preview midpoint"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="previewed75percent" metric="exp-yt-video: YouTube preview third quartile"></gwd-metric-event>
+      <gwd-metric-event source="exp-yt-video" event="previewed100percent" metric="exp-yt-video: YouTube preview complete"></gwd-metric-event>
+    </gwd-metric-configuration>
+    <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck" default-page="banner-page">
+      <div is="gwd-page" id="banner-page" data-gwd-name="Banner page" class="gwd-page-wrapper banner gwd-lightbox gwd-div-gxh1" data-gwd-width="160px" data-gwd-height="600px" style="display: block;">
+        <div class="gwd-page-content banner gwd-div-yfvf">
+          <div class="gwd-div-r8hw gwd-div-gpfs gwd-gen-icztgwdanimation" id="col-desc-txt">Description Text
+          </div>
+          <gwd-taparea id="bg-expand" class="gwd-taparea-v8y4"></gwd-taparea>
+          <gwd-taparea id="btn-expand" class="gwd-taparea-nrro gwd-gen-iqlpgwdanimation" style="background-image: none;">
+            <div class="gwd-div-6h7g" id="btn-expand-txt"><span class="gwd-span-nrlr">Expand</span>
+            </div>
+          </gwd-taparea>
+          <gwd-taparea id="col-logo-exit" class="gwd-taparea-bv6m gwd-gen-o3sygwdanimation">
+            <img class="gwd-img-2spf" is="gwd-image" source="assets/logo_horz.svg" id="logo-img">
+          </gwd-taparea>
+        </div>
+      </div>
+      <div is="gwd-page" id="expanded-page" expanded="" data-gwd-name="Expanded page" class="gwd-page-wrapper expanded gwd-lightbox gwd-div-f18s" data-gwd-width="300px" data-gwd-height="600px">
+        <div class="gwd-page-content expanded gwd-div-4aqp">
+          <div class="gwd-div-creo" id="exp-desc-txt">Description Text</div>
+          <gwd-taparea id="btn-cta" class="gwd-taparea-p5gx" style="background-image: none;">
+            <div class="gwd-div-qh3o" id="btn-cta-txt">Click Here
+            </div>
+          </gwd-taparea>
+          <gwd-taparea id="btn-fb-exit" class="gwd-taparea-ru7j">
+            <img class="gwd-img-87tz" is="gwd-image" source="assets/soc_fb-off_1.svg" id="fb">
+          </gwd-taparea>
+          <gwd-taparea id="btn-tw-exit" class="gwd-taparea-rtlx">
+            <img class="gwd-img-8bqg" is="gwd-image" source="assets/soc_tw-off_1.svg" id="tw">
+          </gwd-taparea>
+          <gwd-taparea id="btn-thumb-3" class="gwd-taparea-k0zt">
+            <img class="gwd-img-t00h gwd-img-xaiu gwd-img-7m3c" is="gwd-image" id="thumb-3" source="assets/thumb_yellow.png">
+          </gwd-taparea>
+          <gwd-taparea id="btn-thumb-2" class="gwd-taparea-9rp1">
+            <img class="gwd-img-t00h gwd-img-xaiu gwd-img-nl3o" is="gwd-image" id="thumb-2" source="assets/thumb_grey.png">
+          </gwd-taparea>
+          <gwd-taparea id="btn-thumb-1" class="gwd-taparea-o5ho">
+            <img class="gwd-img-t00h gwd-img-lliv" is="gwd-image" id="thumb-1" source="assets/thumb_blue.png">
+          </gwd-taparea>
+          <gwd-taparea id="exp-logo-exit" class="gwd-taparea-6jyg">
+            <img class="gwd-img-197g" is="gwd-image" source="assets/logo_horz.svg" id="logo-exp-img">
+          </gwd-taparea>
+          <gwd-youtube id="exp-yt-video" video-url="knNHaXRVjcE" title="" class="gwd-youtube-s0e8 gwd-youtube-4ccx" autoplay="none" controls="autohide" data-gwd-name="exp-yt-video"></gwd-youtube>
+          <gwd-taparea id="btn-close" class="gwd-taparea-8zkq">
+            <img class="gwd-img-ash5 gwd-img-s5wz gwd-img-odim" is="gwd-image" source="assets/close.svg" id="close-img">
+          </gwd-taparea>
+        </div>
+      </div>
+    </div>
+    <gwd-exit metric="logo-exp-exit" url="http://www.google.com"></gwd-exit>
+    <gwd-exit metric="tw-exit" url="http://www.twitter.com"></gwd-exit>
+    <gwd-exit metric="fb-exit" url="http://www.facebook.com"></gwd-exit>
+    <gwd-exit metric="cta-exit" url="http://www.google.com"></gwd-exit>
+    <gwd-exit metric="logo-col-exit" url="http://www.google.com"></gwd-exit>
+  </gwd-doubleclick>
+  <script type="text/javascript" gwd-events="registration">
+    // Support code for event handling in Google Web Designer
+     // This script block is auto-generated. Please do not edit!
+    gwd.actions.events.registerEventHandlers = function(event) {
+      gwd.actions.events.addHandler('banner-page', 'attached', gwd.manageBehavior, false);
+      gwd.actions.events.addHandler('exp-logo-exit', 'action', gwd.auto_Logoexit_btnAction, false);
+      gwd.actions.events.addHandler('btn-tw-exit', 'action', gwd.auto_Twitter_tapareaAction, false);
+      gwd.actions.events.addHandler('btn-fb-exit', 'action', gwd.auto_Facebook_tapareaAction, false);
+      gwd.actions.events.addHandler('btn-cta', 'action', gwd.auto_Cta_tapareaAction, false);
+      gwd.actions.events.addHandler('bg-expand', 'action', gwd.auto_Background_tapareaAction, false);
+      gwd.actions.events.addHandler('btn-close', 'action', gwd.auto_Btn_closeAction, false);
+      gwd.actions.events.addHandler('btn-close', 'action', gwd.auto_Btn_closeAction1, false);
+      gwd.actions.events.addHandler('col-logo-exit', 'action', gwd.auto_Logo_col_exitAction, false);
+      gwd.actions.events.addHandler('btn-expand', 'action', gwd.auto_Btn_expandAction, false);
+      gwd.actions.events.addHandler('btn-thumb-3', 'action', gwd.auto_Btn_thumb_3Action, false);
+      gwd.actions.events.addHandler('btn-thumb-2', 'action', gwd.auto_Btn_thumb_2Action, false);
+      gwd.actions.events.addHandler('btn-thumb-1', 'action', gwd.auto_Btn_thumb_1Action, false);
+    };
+    gwd.actions.events.deregisterEventHandlers = function(event) {
+      gwd.actions.events.removeHandler('banner-page', 'attached', gwd.manageBehavior, false);
+      gwd.actions.events.removeHandler('exp-logo-exit', 'action', gwd.auto_Logoexit_btnAction, false);
+      gwd.actions.events.removeHandler('btn-tw-exit', 'action', gwd.auto_Twitter_tapareaAction, false);
+      gwd.actions.events.removeHandler('btn-fb-exit', 'action', gwd.auto_Facebook_tapareaAction, false);
+      gwd.actions.events.removeHandler('btn-cta', 'action', gwd.auto_Cta_tapareaAction, false);
+      gwd.actions.events.removeHandler('bg-expand', 'action', gwd.auto_Background_tapareaAction, false);
+      gwd.actions.events.removeHandler('btn-close', 'action', gwd.auto_Btn_closeAction, false);
+      gwd.actions.events.removeHandler('btn-close', 'action', gwd.auto_Btn_closeAction1, false);
+      gwd.actions.events.removeHandler('col-logo-exit', 'action', gwd.auto_Logo_col_exitAction, false);
+      gwd.actions.events.removeHandler('btn-expand', 'action', gwd.auto_Btn_expandAction, false);
+      gwd.actions.events.removeHandler('btn-thumb-3', 'action', gwd.auto_Btn_thumb_3Action, false);
+      gwd.actions.events.removeHandler('btn-thumb-2', 'action', gwd.auto_Btn_thumb_2Action, false);
+      gwd.actions.events.removeHandler('btn-thumb-1', 'action', gwd.auto_Btn_thumb_1Action, false);
+    };
+    document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+    document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+  </script>
+  <script type="text/javascript" gwd-events="handlers">
+    gwd.manageBehavior = function(event) {
+      Enabler.addEventListener(studio.events.StudioEvent.EXPAND_FINISH, function() {
+        Enabler.counter("Expansion_Ctr");
+        Enabler.startTimer("Expansion_Timer");
+      }, false);
+      Enabler.addEventListener(studio.events.StudioEvent.COLLAPSE_START, function() {
+        Enabler.finishCollapse();
+        Enabler.counter("Collapse_Ctr");
+        Enabler.stopTimer("Expansion_Timer");
+      }, false);
+    };
+    gwd.auto_Logoexit_btnAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.exit('gwd-ad', 'logo-exp-exit', 'http://www.google.com', true, true);
+    };
+    gwd.auto_Yt_thumb_1Action = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdYoutube.setYouTubeId('ytplayer_1', 'knNHaXRVjcE', false);
+    };
+    gwd.auto_Yt_thumb_2Action = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdYoutube.setYouTubeId('ytplayer_1', 'LbTyreA8HK0', false);
+    };
+    gwd.auto_Yt_thumb_3Action = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdYoutube.setYouTubeId('ytplayer_1', 'b4Aw-e5q9UU', false);
+    };
+    gwd.auto_Twitter_tapareaAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.exit('gwd-ad', 'tw-exit', 'http://www.twitter.com', true, true);
+    };
+    gwd.auto_Facebook_tapareaAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.exit('gwd-ad', 'fb-exit', 'http://www.facebook.com', true, true);
+    };
+    gwd.auto_Cta_tapareaAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.exit('gwd-ad', 'cta-exit', 'http://www.google.com', true, true);
+    };
+    gwd.auto_Background_tapareaAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.goToPage('gwd-ad', 'expanded-page', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Btn_closeAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.reportManualClose('gwd-ad');
+    };
+    gwd.auto_Btn_closeAction1 = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.goToPage('gwd-ad', 'banner-page', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Logo_col_exitAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.exit('gwd-ad', 'logo-col-exit', 'http://www.google.com', true, true);
+    };
+    gwd.auto_Btn_expandAction = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdDoubleclick.goToPage('gwd-ad', 'expanded-page', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Btn_thumb_3Action = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdYoutube.setYouTubeId('exp-yt-video', 'b4Aw-e5q9UU', false);
+    };
+    gwd.auto_Btn_thumb_2Action = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdYoutube.setYouTubeId('exp-yt-video', 'LbTyreA8HK0', false);
+    };
+    gwd.auto_Btn_thumb_1Action = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdYoutube.setYouTubeId('exp-yt-video', 'knNHaXRVjcE', false);
+    };
+  </script>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      document.body.style.opacity = "0";
+      var gwdAd = document.getElementById('gwd-ad');
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+
+      function handleDomContentLoaded(event) {
+        // Here are examples of tasks that can be performed in this method:
+        // * Set dynamic values for element attributes.
+        // * Show a progress image to the user before the Ad is shown.
+      }
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        document.body.style.opacity = "";
+        // Start the Ad lifecycle.
+        setTimeout(function() {
+          gwdAd.initAd();
+        }, 0);
+      }
+
+      /**
+       * Handles the event that is dispatched after the Ad has been
+       * initialized and before the default page of the Ad is shown.
+       */
+      function handleAdInitialized(event) {
+        // This marks the end of the polite load phase of the Ad. If a
+        // loading image was shown to the user, this is a good place to
+        // remove it.
+      }
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+      window.addEventListener('adinitialized',
+        handleAdInitialized, false);
+    })();
+  </script>
+</body>
+
+</html>
   ]]>
 </Content>
 </Module>
